@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.IO;
+
+namespace ReflectorS
+{
+	public class Serializer {
+		public int IndentSpaceCount { set; }
+		public bool TreatStringAsEnumerable { set; }
+
+		public void Serialize(TextWriter writer, object graph) {
+		}
+	}
+}
