@@ -70,8 +70,8 @@ namespace UsingReflectorS {
 			Console.WriteLine();
 
 			// FOLLOWING DOES NOT HAVE TO BE SUPPORTED!!!
-			// Console.WriteLine("SINGLE STRING:");
-			// serializer.Serialize(Console.Out, "Hello");
+			//Console.WriteLine("SINGLE STRING:");
+			//serializer.Serialize(Console.Out, "Hello");
 
 			Console.WriteLine("DEFAULT INDENT:");
 			serializer.Serialize(Console.Out, person);
